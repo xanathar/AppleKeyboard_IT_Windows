@@ -11,6 +11,17 @@ Funziona **probabilmente** anche su altre tastiere Apple (facilmente anche su qu
 * Eseguite il file `.msi` che avete scaricato
 * Nelle opzioni della tastiera di Windows selezionate il layout corretto
 
+### Features
+
+* Corregge il mapping di `<`/`>` e `\`/`|`
+* Aggiunge il mapping del backtick e di `~` a `AltGr+9` e `AltGr+5` come su MacOS
+
+### Build dai sorgenti
+
+* Scaricare [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+* Aprire il file `.klc` in src
+* `Project` / `Build DLL and Setup package`
+
 
 ## English 
 
@@ -22,3 +33,15 @@ It will **probably** work with other Apple keyboard models (including probably t
 * Run the `.msi` file you downloaded
 * Open Windows keyboard settings and select the proper layout
 * Ask yourself why are you using an Italian keyboard if you are not Italian, as if using an Apple keyboard on a non-Mac OS wasn't enough pain already.
+
+
+### Features
+
+* Fixes the mappings of `<`/`>` and `\`/`|`
+* Adds mappings for the backtick and for  `~` to `AltGr+9` and `AltGr+5`, as in MacOS
+
+### Build from sources
+
+* Download [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+* Open the `.klc` file contained in src
+* `Project` / `Build DLL and Setup package`
